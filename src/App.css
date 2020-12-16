@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px) {
+  .appBody button {
+    font-size: x-large;
+    height: 100%;
+  }
+}
+
+.MuiButtonBase-root.shortageButton {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302),
+    0 1px 3px 1px rgba(60, 64, 67, 0.149) !important;
+  background-color: #fff;
+}
+
+.MuiButtonBase-root.shortageButton:hover {
+  box-shadow: 0 1px 3px 0 rgba(14, 15, 15, 0.302),
+    0 4px 8px 3px rgba(60, 64, 67, 0.149) !important;
+  background-color: #fafafb;
+}
+
+.MuiButtonBase-root.shortageButton:active {
+  background-color: #f1f3f4;
+}

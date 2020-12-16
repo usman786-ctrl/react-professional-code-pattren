@@ -1,0 +1,123 @@
+.container {
+      padding-top: 20;
+      display: "flex";
+      flex-grow: 1;
+      flex-direction: "column";
+      justify-content: "space-between";
+    }
+  
+.footer {
+      display: "flex";
+      justify-content: "space-between";
+}
+  
+.footerBtn {
+      width: 120;
+    }
+  
+.row {
+      margin-bottom: 15;
+      flex-grow: 0;
+    }
+  
+.saveBtnContainer {
+      display: "flex";
+      justify-content: "center";
+      flex-grow: 0;
+    }
+  
+.saveBtn {
+      width: 170;
+    }
+  
+.heading {
+      border-bottom-width: 1;
+      padding-bottom: 5;
+      margin-bottom: 20;
+}
+  
+.headingText {
+      text-align: "center";
+    }
+  
+.textInput {
+      text-align: "center"
+    }
+
+.orderDetail {
+      display: "flex";
+      background-color: "red";
+      flex-direction: "row";
+      justify-content: "space-between";
+      /* padding-vertical: 10;
+      padding-horizontal: 20; */
+      margin-bottom: 10;
+      border-color: "black";
+      border-width: 1;
+      flex-grow: 1;
+    }
+
+.orderContainer {
+      display: "flex";
+      flex-direction: "row";
+    }
+
+.modalContainer {
+      display: "flex";
+      flex-grow: 1;
+      justify-content: "center";
+      align-items: "center";
+      background-color: "black";
+      opacity: 0.9;
+    }
+
+.modalWrapper {
+      background-color: "white";
+      width: "90%";
+      z-index: 99;
+      padding: 8;
+    }
+  
+.modalHeader {
+      display: "flex";
+      flex-direction: "row";
+      justify-content: "center";
+      background-color: 'red';
+      padding: 10;
+    }
+
+.modalHeaderText {
+      color: "white"
+    }
+
+.modalBody {
+      flex-grow: 1;
+      /* padding-horizontal: 15;
+      padding-vertical: 25; */
+      align-items: "center";
+      justify-content: "center";
+    }
+.modalFooter {
+      display: "flex";
+      flex-direction: "row";
+    }
+
+.modalFooterButton {
+      flex-grow: 1;
+      display: "flex";
+      justify-content: "center";
+    }
+
+.btnLast {
+      margin-left: 20;
+    }
+
+
+    .modelPaper{
+      width: 400px;
+      border: 2px solid #000;
+      padding: 16px 32px 24px;
+      position: absolute;
+      box-shadow: 0px 3px 5px -1px rgba(0,0,0,0.2), 0px 5px 8px 0px rgba(0,0,0,0.14), 0px 1px 14px 0px rgba(0,0,0,0.12);
+      background-color: #fff;
+    }
